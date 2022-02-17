@@ -17,6 +17,5 @@ def draw_spiral(a_turtle, line_length):
 charlie = turtle.Turtle(shape="turtle")
 charlie.pensize(5)
 charlie.color("red")
-charlie.circle(20)
 draw_spiral(charlie, 10)
 turtle.done()
